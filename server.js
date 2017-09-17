@@ -7,7 +7,7 @@ var apiroutes = require('./app/routing/apiRoutes.js');
 // Sets up the Express App
 // =============================================================
 var app = express();
-var port = process.env.port || 8000;
+var port = process.env.PORT || 8000;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
